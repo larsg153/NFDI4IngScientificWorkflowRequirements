@@ -166,6 +166,7 @@ jobs:
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
           cd $GITHUB_WORKSPACE/simple_use_case/kadistudio
+          workflow-nodes system echo  "Hallo"
           conda activate simple_use_case
           sudo process_engine run workflownodesTest.flow -p /home
 
