@@ -159,6 +159,7 @@ jobs:
       - name: run-workflow
         shell: bash -l {0}
         run: |
+          conda activate simple_use_case
           python3 -m pip install workflow-nodes
           which python3
           wget https://gitlab.com/iam-cms/workflows/process-engine/-/jobs/1764662488/artifacts/download -O process_engine.zip
