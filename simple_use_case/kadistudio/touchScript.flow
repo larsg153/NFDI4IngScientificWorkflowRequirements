@@ -2,40 +2,18 @@
     "connections": [
         {
             "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
-            "in_index": 4,
-            "out_id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
+            "in_index": 1,
+            "out_id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
             "out_index": 0
         },
         {
             "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
-            "in_index": 1,
-            "out_id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
+            "in_index": 4,
+            "out_id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
             "out_index": 0
         }
     ],
     "nodes": [
-        {
-            "id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
-            "model": {
-                "name": "String",
-                "value": "bash"
-            },
-            "position": {
-                "x": -391.5032679738563,
-                "y": 11.764705882352942
-            }
-        },
-        {
-            "id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
-            "model": {
-                "name": "String",
-                "value": "/home/larsg/workspace/NFDI4IngScientificWorkflowRequirements/simple_use_case/kadistudio/testScript.sh"
-            },
-            "position": {
-                "x": -383.00653594771245,
-                "y": -60.7843137254902
-            }
-        },
         {
             "id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
             "model": {
@@ -142,6 +120,28 @@
             "position": {
                 "x": -50.980392156862735,
                 "y": -101.30718954248368
+            }
+        },
+        {
+            "id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/simple_use_case/kadistudio/testScript.sh"
+            },
+            "position": {
+                "x": -383.00653594771245,
+                "y": -60.7843137254902
+            }
+        },
+        {
+            "id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
+            "model": {
+                "name": "String",
+                "value": "bash"
+            },
+            "position": {
+                "x": -391.5032679738563,
+                "y": 11.764705882352942
             }
         }
     ]
