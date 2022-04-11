@@ -162,11 +162,11 @@ jobs:
           pip install workflow-nodes
           wget https://gitlab.com/iam-cms/workflows/process-manager/-/jobs/artifacts/master/download?job=pack_deb -O process_manager.zip
           unzip process_manager.zip
-          apt-get install --yes ./build/*.deb
+          sudo apt-get install --yes ./build/*.deb
           rm /build/*.deb
           wget https://gitlab.com/iam-cms/workflows/process-engine/-/jobs/1764662488/artifacts/download -O process_engine.zip
           unzip process_engine.zip
-          apt-get install --yes ./build/*.deb
+          sudo apt-get install --yes ./build/*.deb
           rm /build/*.deb
           cd $GITHUB_WORKSPACE/simple_use_case/kadistudio
           process_manager start simple_use_case.flow
