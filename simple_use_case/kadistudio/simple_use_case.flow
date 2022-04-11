@@ -1,21 +1,159 @@
 {
     "connections": [
         {
-            "in_id": "{9395f4cb-8c69-4960-a3c9-1a2d3d285dd4}",
-            "in_index": 0,
-            "out_id": "{af6728fb-4871-4a25-86d1-e0cbbcb2257a}",
+            "in_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
+            "in_index": 3,
+            "out_id": "{f4c3e069-b74e-489b-a0eb-cde5969b780e}",
             "out_index": 0
         },
         {
-            "in_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
-            "in_index": 0,
-            "out_id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
+            "in_id": "{5b885a1a-c56d-48ef-9d88-346145394728}",
+            "in_index": 2,
+            "out_id": "{3e70152d-a817-48b4-9349-2b8f8922ceb5}",
             "out_index": 0
         },
         {
-            "in_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
+            "in_id": "{5b885a1a-c56d-48ef-9d88-346145394728}",
             "in_index": 1,
-            "out_id": "{b2080c1d-6d75-4fa6-a97e-52939d623514}",
+            "out_id": "{fb63b7e6-5275-4432-aefa-1a718bc7792a}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{0fbe73d9-16ad-4d3e-a312-daf94dc2e5d3}",
+            "in_index": 1,
+            "out_id": "{220f41ef-264b-43e5-b5e7-15d954f30563}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{8cdb1559-fb47-4df9-a8c8-9e26791c0a78}",
+            "in_index": 0,
+            "out_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
+            "in_index": 0,
+            "out_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
+            "in_index": 0,
+            "out_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
+            "in_index": 4,
+            "out_id": "{ec224666-e7a0-44d9-b059-b62e445c9e0a}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
+            "in_index": 1,
+            "out_id": "{aef407ea-c4be-4e6c-bcad-e823fb8f0ae1}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{c540a6ed-4773-40d8-b899-2d50b6a71a8a}",
+            "in_index": 0,
+            "out_id": "{0fbe73d9-16ad-4d3e-a312-daf94dc2e5d3}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
+            "in_index": 6,
+            "out_id": "{c6e92adc-6b66-460f-9d10-51462861632f}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
+            "in_index": 5,
+            "out_id": "{aef407ea-c4be-4e6c-bcad-e823fb8f0ae1}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
+            "in_index": 0,
+            "out_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{0fbe73d9-16ad-4d3e-a312-daf94dc2e5d3}",
+            "in_index": 0,
+            "out_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
+            "in_index": 2,
+            "out_id": "{4036635d-a7a4-43ba-a042-692e135df611}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
+            "in_index": 2,
+            "out_id": "{36ff6142-7f0c-413f-93d3-46d677fda3b6}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
+            "in_index": 4,
+            "out_id": "{bc0efa57-8e71-4711-b9b2-e276b38f7ddf}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
+            "in_index": 4,
+            "out_id": "{7d5dd930-237c-409c-a5b1-8bad536f3451}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{8cdb1559-fb47-4df9-a8c8-9e26791c0a78}",
+            "in_index": 1,
+            "out_id": "{8eaca792-cd22-4f78-9cc9-ee97828f7299}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
+            "in_index": 1,
+            "out_id": "{4c007f80-696e-4dfd-a4ab-7c33a40e8136}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
+            "in_index": 1,
+            "out_id": "{44928488-49e4-4f55-816e-308501509049}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
+            "in_index": 2,
+            "out_id": "{08ae43e4-fdfb-4828-bd59-55b542314f59}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
+            "in_index": 2,
+            "out_id": "{6ecad8d9-9983-437d-957f-97d5ccf90a59}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{c540a6ed-4773-40d8-b899-2d50b6a71a8a}",
+            "in_index": 1,
+            "out_id": "{3f575615-5791-43ac-bdd6-0f9420f99ebc}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
+            "in_index": 0,
+            "out_id": "{c540a6ed-4773-40d8-b899-2d50b6a71a8a}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
+            "in_index": 2,
+            "out_id": "{1c0f1152-497a-4c02-8a35-148030fa6576}",
             "out_index": 0
         },
         {
@@ -35,81 +173,9 @@
             "out_index": 1
         },
         {
-            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
-            "in_index": 2,
-            "out_id": "{1c0f1152-497a-4c02-8a35-148030fa6576}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
-            "in_index": 0,
-            "out_id": "{c540a6ed-4773-40d8-b899-2d50b6a71a8a}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{c540a6ed-4773-40d8-b899-2d50b6a71a8a}",
-            "in_index": 1,
-            "out_id": "{3f575615-5791-43ac-bdd6-0f9420f99ebc}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{af6728fb-4871-4a25-86d1-e0cbbcb2257a}",
-            "in_index": 1,
-            "out_id": "{7c2c2f43-3133-4a0a-9767-5b7d5b6717f0}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
-            "in_index": 2,
-            "out_id": "{08ae43e4-fdfb-4828-bd59-55b542314f59}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
-            "in_index": 1,
-            "out_id": "{44928488-49e4-4f55-816e-308501509049}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
-            "in_index": 1,
-            "out_id": "{4c007f80-696e-4dfd-a4ab-7c33a40e8136}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{8cdb1559-fb47-4df9-a8c8-9e26791c0a78}",
-            "in_index": 1,
-            "out_id": "{8eaca792-cd22-4f78-9cc9-ee97828f7299}",
-            "out_index": 0
-        },
-        {
             "in_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
-            "in_index": 4,
-            "out_id": "{bc0efa57-8e71-4711-b9b2-e276b38f7ddf}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
-            "in_index": 2,
-            "out_id": "{36ff6142-7f0c-413f-93d3-46d677fda3b6}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{9395f4cb-8c69-4960-a3c9-1a2d3d285dd4}",
-            "in_index": 2,
-            "out_id": "{9fd4a6cd-232b-4bfd-9390-0de0c291de1d}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
-            "in_index": 5,
-            "out_id": "{aef407ea-c4be-4e6c-bcad-e823fb8f0ae1}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
-            "in_index": 0,
-            "out_id": "{9395f4cb-8c69-4960-a3c9-1a2d3d285dd4}",
+            "in_index": 1,
+            "out_id": "{b2080c1d-6d75-4fa6-a97e-52939d623514}",
             "out_index": 0
         },
         {
@@ -119,582 +185,54 @@
             "out_index": 0
         },
         {
-            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
-            "in_index": 6,
-            "out_id": "{c6e92adc-6b66-460f-9d10-51462861632f}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{c540a6ed-4773-40d8-b899-2d50b6a71a8a}",
-            "in_index": 0,
-            "out_id": "{0fbe73d9-16ad-4d3e-a312-daf94dc2e5d3}",
-            "out_index": 0
-        },
-        {
             "in_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
-            "in_index": 2,
-            "out_id": "{4036635d-a7a4-43ba-a042-692e135df611}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{9395f4cb-8c69-4960-a3c9-1a2d3d285dd4}",
-            "in_index": 1,
-            "out_id": "{90e62d97-6651-4a99-b3f2-f6add8610017}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
-            "in_index": 1,
-            "out_id": "{aef407ea-c4be-4e6c-bcad-e823fb8f0ae1}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
-            "in_index": 4,
-            "out_id": "{ec224666-e7a0-44d9-b059-b62e445c9e0a}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
-            "in_index": 4,
-            "out_id": "{7d5dd930-237c-409c-a5b1-8bad536f3451}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{af6728fb-4871-4a25-86d1-e0cbbcb2257a}",
-            "in_index": 2,
-            "out_id": "{90e62d97-6651-4a99-b3f2-f6add8610017}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
-            "in_index": 2,
-            "out_id": "{6ecad8d9-9983-437d-957f-97d5ccf90a59}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
             "in_index": 0,
-            "out_id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{0fbe73d9-16ad-4d3e-a312-daf94dc2e5d3}",
-            "in_index": 0,
-            "out_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
-            "in_index": 0,
-            "out_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{8cdb1559-fb47-4df9-a8c8-9e26791c0a78}",
-            "in_index": 0,
-            "out_id": "{45cb400b-f610-476d-b798-60a5ec161521}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{0fbe73d9-16ad-4d3e-a312-daf94dc2e5d3}",
-            "in_index": 1,
-            "out_id": "{220f41ef-264b-43e5-b5e7-15d954f30563}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{9395f4cb-8c69-4960-a3c9-1a2d3d285dd4}",
-            "in_index": 3,
-            "out_id": "{7adb83b7-fd11-43f5-bc98-ff701ae6f55a}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{5b885a1a-c56d-48ef-9d88-346145394728}",
-            "in_index": 1,
-            "out_id": "{fb63b7e6-5275-4432-aefa-1a718bc7792a}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{5b885a1a-c56d-48ef-9d88-346145394728}",
-            "in_index": 2,
-            "out_id": "{3e70152d-a817-48b4-9349-2b8f8922ceb5}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
-            "in_index": 0,
-            "out_id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
-            "in_index": 3,
-            "out_id": "{f4c3e069-b74e-489b-a0eb-cde5969b780e}",
+            "out_id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
             "out_index": 0
         }
     ],
     "nodes": [
         {
-            "id": "{3e70152d-a817-48b4-9349-2b8f8922ceb5}",
+            "id": "{4c007f80-696e-4dfd-a4ab-7c33a40e8136}",
             "model": {
                 "name": "String",
-                "value": "$GITHUB_WORKSPACE/simple_use_case/kadistudio"
+                "value": "$GITHUB_WORKSPACE/source/prepare_paper_macros.py"
             },
             "position": {
-                "x": 3211.1821175206046,
-                "y": 187.42308078914044
+                "x": 2290.6502591114613,
+                "y": -32.92533086161872
             }
         },
         {
-            "id": "{44928488-49e4-4f55-816e-308501509049}",
+            "id": "{8eaca792-cd22-4f78-9cc9-ee97828f7299}",
             "model": {
                 "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/postprocessing.py"
+                "value": "$GITHUB_WORKSPACE/source/paper.tex"
             },
             "position": {
-                "x": 1772.7247058823527,
-                "y": 52.85647058823527
+                "x": 2818.012098600341,
+                "y": 181.34918465245534
             }
         },
         {
-            "id": "{0fbe73d9-16ad-4d3e-a312-daf94dc2e5d3}",
+            "id": "{ec224666-e7a0-44d9-b059-b62e445c9e0a}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/source/unit_square.geo"
+            },
+            "position": {
+                "x": 99.99999999999999,
+                "y": 427
+            }
+        },
+        {
+            "id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
             "model": {
                 "executionProfile": "Default",
                 "name": "ToolNode",
                 "tool": {
-                    "name": "workflow-nodes system echo",
-                    "path": "workflow-nodes system echo ",
-                    "ports": [
-                        {
-                            "name": "Dependencies",
-                            "port_direction": "in",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "arg0",
-                            "port_direction": "in",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": true,
-                            "shortName": "",
-                            "type": "string"
-                        },
-                        {
-                            "name": "no-newline",
-                            "port_direction": "in",
-                            "port_index": 2,
-                            "position": 1,
-                            "required": false,
-                            "shortName": "n",
-                            "type": "flag"
-                        },
-                        {
-                            "name": "enable-backslash-escapes",
-                            "port_direction": "in",
-                            "port_index": 3,
-                            "position": 2,
-                            "required": false,
-                            "shortName": "e",
-                            "type": "flag"
-                        },
-                        {
-                            "name": "disable-backslash-escapes",
-                            "port_direction": "in",
-                            "port_index": 4,
-                            "position": 3,
-                            "required": false,
-                            "shortName": "E",
-                            "type": "flag"
-                        },
-                        {
-                            "name": "environment",
-                            "port_direction": "in",
-                            "port_index": 5,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "env"
-                        },
-                        {
-                            "name": "stdin",
-                            "port_direction": "in",
-                            "port_index": 6,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        },
-                        {
-                            "name": "Dependents",
-                            "port_direction": "out",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "stdout",
-                            "port_direction": "out",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        }
-                    ],
-                    "version": "0.11.0"
-                }
-            },
-            "position": {
-                "x": 2120.2985600773645,
-                "y": 644.9233373301798
-            }
-        },
-        {
-            "id": "{7c2c2f43-3133-4a0a-9767-5b7d5b6717f0}",
-            "model": {
-                "name": "String",
-                "value": "source"
-            },
-            "position": {
-                "x": -1033.0143221040867,
-                "y": 319.76299828757584
-            }
-        },
-        {
-            "id": "{8cdb1559-fb47-4df9-a8c8-9e26791c0a78}",
-            "model": {
-                "executionProfile": "Default",
-                "name": "ToolNode",
-                "tool": {
-                    "name": "workflow-nodes misc tectonic",
-                    "path": "workflow-nodes misc tectonic ",
-                    "ports": [
-                        {
-                            "name": "Dependencies",
-                            "port_direction": "in",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "arg0",
-                            "port_direction": "in",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": true,
-                            "shortName": "",
-                            "type": "string"
-                        },
-                        {
-                            "name": "environment",
-                            "port_direction": "in",
-                            "port_index": 2,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "env"
-                        },
-                        {
-                            "name": "stdin",
-                            "port_direction": "in",
-                            "port_index": 3,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        },
-                        {
-                            "name": "Dependents",
-                            "port_direction": "out",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "stdout",
-                            "port_direction": "out",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        }
-                    ],
-                    "version": "0.11.0"
-                }
-            },
-            "position": {
-                "x": 3162.354934177241,
-                "y": 278.19138465576265
-            }
-        },
-        {
-            "id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
-            "model": {
-                "executionProfile": "Default",
-                "name": "ToolNode",
-                "tool": {
-                    "name": "workflow-nodes misc run-script",
-                    "path": "workflow-nodes misc run-script ",
-                    "ports": [
-                        {
-                            "name": "Dependencies",
-                            "port_direction": "in",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "arg0",
-                            "port_direction": "in",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": true,
-                            "shortName": "",
-                            "type": "string"
-                        },
-                        {
-                            "name": "arguments",
-                            "port_direction": "in",
-                            "port_index": 2,
-                            "position": 1,
-                            "required": false,
-                            "shortName": "a",
-                            "type": "string"
-                        },
-                        {
-                            "name": "execute-in",
-                            "port_direction": "in",
-                            "port_index": 3,
-                            "position": 2,
-                            "required": false,
-                            "shortName": "e",
-                            "type": "string"
-                        },
-                        {
-                            "name": "interpreter",
-                            "port_direction": "in",
-                            "port_index": 4,
-                            "position": 3,
-                            "required": false,
-                            "shortName": "i",
-                            "type": "string"
-                        },
-                        {
-                            "name": "ignore-exitcode",
-                            "port_direction": "in",
-                            "port_index": 5,
-                            "position": 4,
-                            "required": false,
-                            "shortName": "",
-                            "type": "flag"
-                        },
-                        {
-                            "name": "environment",
-                            "port_direction": "in",
-                            "port_index": 6,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "env"
-                        },
-                        {
-                            "name": "stdin",
-                            "port_direction": "in",
-                            "port_index": 7,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        },
-                        {
-                            "name": "Dependents",
-                            "port_direction": "out",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "stdout",
-                            "port_direction": "out",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        }
-                    ],
-                    "version": "0.11.0"
-                }
-            },
-            "position": {
-                "x": 1657.2536470588234,
-                "y": 278.1063529411764
-            }
-        },
-        {
-            "id": "{45cb400b-f610-476d-b798-60a5ec161521}",
-            "model": {
-                "executionProfile": "Default",
-                "name": "ToolNode",
-                "tool": {
-                    "name": "workflow-nodes misc run-script",
-                    "path": "workflow-nodes misc run-script ",
-                    "ports": [
-                        {
-                            "name": "Dependencies",
-                            "port_direction": "in",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "arg0",
-                            "port_direction": "in",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": true,
-                            "shortName": "",
-                            "type": "string"
-                        },
-                        {
-                            "name": "arguments",
-                            "port_direction": "in",
-                            "port_index": 2,
-                            "position": 1,
-                            "required": false,
-                            "shortName": "a",
-                            "type": "string"
-                        },
-                        {
-                            "name": "execute-in",
-                            "port_direction": "in",
-                            "port_index": 3,
-                            "position": 2,
-                            "required": false,
-                            "shortName": "e",
-                            "type": "string"
-                        },
-                        {
-                            "name": "interpreter",
-                            "port_direction": "in",
-                            "port_index": 4,
-                            "position": 3,
-                            "required": false,
-                            "shortName": "i",
-                            "type": "string"
-                        },
-                        {
-                            "name": "ignore-exitcode",
-                            "port_direction": "in",
-                            "port_index": 5,
-                            "position": 4,
-                            "required": false,
-                            "shortName": "",
-                            "type": "flag"
-                        },
-                        {
-                            "name": "environment",
-                            "port_direction": "in",
-                            "port_index": 6,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "env"
-                        },
-                        {
-                            "name": "stdin",
-                            "port_direction": "in",
-                            "port_index": 7,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        },
-                        {
-                            "name": "Dependents",
-                            "port_direction": "out",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "stdout",
-                            "port_direction": "out",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        }
-                    ],
-                    "version": "0.11.0"
-                }
-            },
-            "position": {
-                "x": 2721.209035154627,
-                "y": 277.73633766497306
-            }
-        },
-        {
-            "id": "{90e62d97-6651-4a99-b3f2-f6add8610017}",
-            "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/simple_use_case/source"
-            },
-            "position": {
-                "x": -1036.125273529859,
-                "y": 394.84057738094367
-            }
-        },
-        {
-            "id": "{4036635d-a7a4-43ba-a042-692e135df611}",
-            "model": {
-                "name": "String",
-                "value": "--mesh $GITHUB_WORKSPACE/source/square.xdmf --degree 2 --outputfile $GITHUB_WORKSPACE/source/poisson.pvd --num-dofs $GITHUB_WORKSPACE/source/numdofs.txt"
-            },
-            "position": {
-                "x": 1117.176470588235,
-                "y": 91.2941176470588
-            }
-        },
-        {
-            "id": "{aef407ea-c4be-4e6c-bcad-e823fb8f0ae1}",
-            "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/square_mesh.msh"
-            },
-            "position": {
-                "x": 100,
-                "y": 486
-            }
-        },
-        {
-            "id": "{9395f4cb-8c69-4960-a3c9-1a2d3d285dd4}",
-            "model": {
-                "executionProfile": "Default",
-                "name": "ToolNode",
-                "tool": {
-                    "name": "workflow-nodes system cp",
-                    "path": "workflow-nodes system cp ",
+                    "name": "workflow-nodes misc meshio-convert",
+                    "path": "workflow-nodes misc meshio-convert ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -724,18 +262,36 @@
                             "type": "string"
                         },
                         {
-                            "name": "directory",
+                            "name": "input-format",
                             "port_direction": "in",
                             "port_index": 3,
                             "position": 2,
                             "required": false,
-                            "shortName": "d",
+                            "shortName": "f",
+                            "type": "string"
+                        },
+                        {
+                            "name": "output-format",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 3,
+                            "required": false,
+                            "shortName": "v",
+                            "type": "string"
+                        },
+                        {
+                            "name": "prune",
+                            "port_direction": "in",
+                            "port_index": 5,
+                            "position": 4,
+                            "required": false,
+                            "shortName": "p",
                             "type": "flag"
                         },
                         {
                             "name": "environment",
                             "port_direction": "in",
-                            "port_index": 4,
+                            "port_index": 6,
                             "position": 0,
                             "required": false,
                             "shortName": "",
@@ -744,108 +300,7 @@
                         {
                             "name": "stdin",
                             "port_direction": "in",
-                            "port_index": 5,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        },
-                        {
-                            "name": "Dependents",
-                            "port_direction": "out",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "stdout",
-                            "port_direction": "out",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        }
-                    ],
-                    "version": "0.14.0"
-                }
-            },
-            "position": {
-                "x": -349.3149804795231,
-                "y": 278.17788719038003
-            }
-        },
-        {
-            "id": "{b2080c1d-6d75-4fa6-a97e-52939d623514}",
-            "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/poisson.py"
-            },
-            "position": {
-                "x": 1115.2941176470588,
-                "y": 19.764705882352956
-            }
-        },
-        {
-            "id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
-            "model": {
-                "executionProfile": "Default",
-                "name": "ToolNode",
-                "tool": {
-                    "name": "workflow-nodes misc pvbatch",
-                    "path": "workflow-nodes misc pvbatch ",
-                    "ports": [
-                        {
-                            "name": "Dependencies",
-                            "port_direction": "in",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "script",
-                            "port_direction": "in",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": true,
-                            "shortName": "s",
-                            "type": "string"
-                        },
-                        {
-                            "name": "vtk-file",
-                            "port_direction": "in",
-                            "port_index": 2,
-                            "position": 1,
-                            "required": true,
-                            "shortName": "v",
-                            "type": "string"
-                        },
-                        {
-                            "name": "output-file",
-                            "port_direction": "in",
-                            "port_index": 3,
-                            "position": 2,
-                            "required": false,
-                            "shortName": "o",
-                            "type": "string"
-                        },
-                        {
-                            "name": "environment",
-                            "port_direction": "in",
-                            "port_index": 4,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "env"
-                        },
-                        {
-                            "name": "stdin",
-                            "port_direction": "in",
-                            "port_index": 5,
+                            "port_index": 7,
                             "position": 0,
                             "required": false,
                             "shortName": "",
@@ -874,208 +329,41 @@
                 }
             },
             "position": {
-                "x": 2162.884845361455,
-                "y": 277.4248375223784
+                "x": 998.4000000000001,
+                "y": 278.9647058823528
             }
         },
         {
-            "id": "{220f41ef-264b-43e5-b5e7-15d954f30563}",
-            "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/numdofs.txt"
-            },
-            "position": {
-                "x": 1743.4068086012194,
-                "y": 693.0255172445294
-            }
-        },
-        {
-            "id": "{36ff6142-7f0c-413f-93d3-46d677fda3b6}",
-            "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/poisson.pvd"
-            },
-            "position": {
-                "x": 1772.7247058823523,
-                "y": 123.33176470588234
-            }
-        },
-        {
-            "id": "{af6728fb-4871-4a25-86d1-e0cbbcb2257a}",
+            "id": "{c540a6ed-4773-40d8-b899-2d50b6a71a8a}",
             "model": {
                 "executionProfile": "Default",
                 "name": "Variable"
             },
             "position": {
-                "x": -637.1531075201518,
-                "y": 277.94128767114285
+                "x": 2609.203889145474,
+                "y": 662.9247666232799
             }
         },
         {
-            "id": "{1c0f1152-497a-4c02-8a35-148030fa6576}",
+            "id": "{c6e92adc-6b66-460f-9d10-51462861632f}",
             "model": {
                 "name": "String",
-                "value": "--macro-template-file $GITHUB_WORKSPACE/source/macros.tex.template --plot-data-path plotoverline.csv --domain-size 4 --num-dofs ${numdofs} --output-macro-file source/macros.tex"
+                "value": "domain_size 4"
             },
             "position": {
-                "x": 2290.4287348872485,
-                "y": 35.8976589766398
+                "x": 100,
+                "y": 549
             }
         },
         {
-            "id": "{3f575615-5791-43ac-bdd6-0f9420f99ebc}",
+            "id": "{fb63b7e6-5275-4432-aefa-1a718bc7792a}",
             "model": {
                 "name": "String",
-                "value": "numdofs"
+                "value": "$GITHUB_WORKSPACE/source/paper.pdf"
             },
             "position": {
-                "x": 2237.0675503725147,
-                "y": 566.0964696668576
-            }
-        },
-        {
-            "id": "{5b885a1a-c56d-48ef-9d88-346145394728}",
-            "model": {
-                "executionProfile": "Default",
-                "name": "ToolNode",
-                "tool": {
-                    "name": "workflow-nodes system cp",
-                    "path": "workflow-nodes system cp ",
-                    "ports": [
-                        {
-                            "name": "Dependencies",
-                            "port_direction": "in",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "arg0",
-                            "port_direction": "in",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": true,
-                            "shortName": "",
-                            "type": "string"
-                        },
-                        {
-                            "name": "arg1",
-                            "port_direction": "in",
-                            "port_index": 2,
-                            "position": 1,
-                            "required": true,
-                            "shortName": "",
-                            "type": "string"
-                        },
-                        {
-                            "name": "repository",
-                            "port_direction": "in",
-                            "port_index": 3,
-                            "position": 2,
-                            "required": false,
-                            "shortName": "",
-                            "type": "flag"
-                        },
-                        {
-                            "name": "environment",
-                            "port_direction": "in",
-                            "port_index": 4,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "env"
-                        },
-                        {
-                            "name": "stdin",
-                            "port_direction": "in",
-                            "port_index": 5,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        },
-                        {
-                            "name": "Dependents",
-                            "port_direction": "out",
-                            "port_index": 0,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "dependency"
-                        },
-                        {
-                            "name": "stdout",
-                            "port_direction": "out",
-                            "port_index": 1,
-                            "position": 0,
-                            "required": false,
-                            "shortName": "",
-                            "type": "pipe"
-                        }
-                    ],
-                    "version": "0.11.0"
-                }
-            },
-            "position": {
-                "x": 3608.76200463905,
-                "y": 277.663823391319
-            }
-        },
-        {
-            "id": "{bc0efa57-8e71-4711-b9b2-e276b38f7ddf}",
-            "model": {
-                "name": "String",
-                "value": "python"
-            },
-            "position": {
-                "x": 1116.0784313725487,
-                "y": 166.2745098039215
-            }
-        },
-        {
-            "id": "{6ecad8d9-9983-437d-957f-97d5ccf90a59}",
-            "model": {
-                "name": "Boolean",
-                "value": "1"
-            },
-            "position": {
-                "x": 310,
-                "y": 365
-            }
-        },
-        {
-            "id": "{f4c3e069-b74e-489b-a0eb-cde5969b780e}",
-            "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/plotoverline.csv"
-            },
-            "position": {
-                "x": 1772.7247058823523,
-                "y": 191.09647058823523
-            }
-        },
-        {
-            "id": "{7d5dd930-237c-409c-a5b1-8bad536f3451}",
-            "model": {
-                "name": "String",
-                "value": "python"
-            },
-            "position": {
-                "x": 2290.7265429783824,
-                "y": 109.3301304603319
-            }
-        },
-        {
-            "id": "{08ae43e4-fdfb-4828-bd59-55b542314f59}",
-            "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/square.xdmf"
-            },
-            "position": {
-                "x": 573.7411764705881,
-                "y": 170.54117647058823
+                "x": 3209.0996388451704,
+                "y": 115.40402659701695
             }
         },
         {
@@ -1214,68 +502,68 @@
             }
         },
         {
-            "id": "{7adb83b7-fd11-43f5-bc98-ff701ae6f55a}",
+            "id": "{08ae43e4-fdfb-4828-bd59-55b542314f59}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/source/square.xdmf"
+            },
+            "position": {
+                "x": 573.7411764705881,
+                "y": 170.54117647058823
+            }
+        },
+        {
+            "id": "{7d5dd930-237c-409c-a5b1-8bad536f3451}",
+            "model": {
+                "name": "String",
+                "value": "python"
+            },
+            "position": {
+                "x": 2290.7265429783824,
+                "y": 109.3301304603319
+            }
+        },
+        {
+            "id": "{f4c3e069-b74e-489b-a0eb-cde5969b780e}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/source/plotoverline.csv"
+            },
+            "position": {
+                "x": 1772.7247058823523,
+                "y": 191.09647058823523
+            }
+        },
+        {
+            "id": "{6ecad8d9-9983-437d-957f-97d5ccf90a59}",
             "model": {
                 "name": "Boolean",
                 "value": "1"
             },
             "position": {
-                "x": -610.17623291816,
-                "y": 566.0090310303401
+                "x": 310,
+                "y": 365
             }
         },
         {
-            "id": "{fb63b7e6-5275-4432-aefa-1a718bc7792a}",
+            "id": "{bc0efa57-8e71-4711-b9b2-e276b38f7ddf}",
             "model": {
                 "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/paper.pdf"
+                "value": "python"
             },
             "position": {
-                "x": 3209.0996388451704,
-                "y": 115.40402659701695
+                "x": 1116.0784313725487,
+                "y": 166.2745098039215
             }
         },
         {
-            "id": "{c6e92adc-6b66-460f-9d10-51462861632f}",
-            "model": {
-                "name": "String",
-                "value": "domain_size 4"
-            },
-            "position": {
-                "x": 100,
-                "y": 549
-            }
-        },
-        {
-            "id": "{c540a6ed-4773-40d8-b899-2d50b6a71a8a}",
-            "model": {
-                "executionProfile": "Default",
-                "name": "Variable"
-            },
-            "position": {
-                "x": 2609.203889145474,
-                "y": 662.9247666232799
-            }
-        },
-        {
-            "id": "{9fd4a6cd-232b-4bfd-9390-0de0c291de1d}",
-            "model": {
-                "name": "String",
-                "value": "$(pwd)"
-            },
-            "position": {
-                "x": -806.270105926322,
-                "y": 499.74693929420175
-            }
-        },
-        {
-            "id": "{51251a77-d8f6-4777-b699-fdcddd41ff81}",
+            "id": "{5b885a1a-c56d-48ef-9d88-346145394728}",
             "model": {
                 "executionProfile": "Default",
                 "name": "ToolNode",
                 "tool": {
-                    "name": "workflow-nodes misc meshio-convert",
-                    "path": "workflow-nodes misc meshio-convert ",
+                    "name": "workflow-nodes system cp",
+                    "path": "workflow-nodes system cp ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -1305,30 +593,287 @@
                             "type": "string"
                         },
                         {
-                            "name": "input-format",
+                            "name": "repository",
                             "port_direction": "in",
                             "port_index": 3,
                             "position": 2,
                             "required": false,
-                            "shortName": "f",
+                            "shortName": "",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 5,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.11.0"
+                }
+            },
+            "position": {
+                "x": 3608.76200463905,
+                "y": 277.663823391319
+            }
+        },
+        {
+            "id": "{3f575615-5791-43ac-bdd6-0f9420f99ebc}",
+            "model": {
+                "name": "String",
+                "value": "numdofs"
+            },
+            "position": {
+                "x": 2237.0675503725147,
+                "y": 566.0964696668576
+            }
+        },
+        {
+            "id": "{1c0f1152-497a-4c02-8a35-148030fa6576}",
+            "model": {
+                "name": "String",
+                "value": "--macro-template-file $GITHUB_WORKSPACE/source/macros.tex.template --plot-data-path plotoverline.csv --domain-size 4 --num-dofs ${numdofs} --output-macro-file source/macros.tex"
+            },
+            "position": {
+                "x": 2290.4287348872485,
+                "y": 35.8976589766398
+            }
+        },
+        {
+            "id": "{36ff6142-7f0c-413f-93d3-46d677fda3b6}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/source/poisson.pvd"
+            },
+            "position": {
+                "x": 1772.7247058823523,
+                "y": 123.33176470588234
+            }
+        },
+        {
+            "id": "{220f41ef-264b-43e5-b5e7-15d954f30563}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/source/numdofs.txt"
+            },
+            "position": {
+                "x": 1743.4068086012194,
+                "y": 693.0255172445294
+            }
+        },
+        {
+            "id": "{4a2533f8-f89f-481f-bb0f-666f321e4c83}",
+            "model": {
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes misc pvbatch",
+                    "path": "workflow-nodes misc pvbatch ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "script",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "s",
                             "type": "string"
                         },
                         {
-                            "name": "output-format",
+                            "name": "vtk-file",
                             "port_direction": "in",
-                            "port_index": 4,
-                            "position": 3,
-                            "required": false,
+                            "port_index": 2,
+                            "position": 1,
+                            "required": true,
                             "shortName": "v",
                             "type": "string"
                         },
                         {
-                            "name": "prune",
+                            "name": "output-file",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 2,
+                            "required": false,
+                            "shortName": "o",
+                            "type": "string"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 5,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.11.0"
+                }
+            },
+            "position": {
+                "x": 2162.884845361455,
+                "y": 277.4248375223784
+            }
+        },
+        {
+            "id": "{b2080c1d-6d75-4fa6-a97e-52939d623514}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/source/poisson.py"
+            },
+            "position": {
+                "x": 1115.2941176470588,
+                "y": 19.764705882352956
+            }
+        },
+        {
+            "id": "{aef407ea-c4be-4e6c-bcad-e823fb8f0ae1}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/source/square_mesh.msh"
+            },
+            "position": {
+                "x": 100,
+                "y": 486
+            }
+        },
+        {
+            "id": "{4036635d-a7a4-43ba-a042-692e135df611}",
+            "model": {
+                "name": "String",
+                "value": "--mesh $GITHUB_WORKSPACE/source/square.xdmf --degree 2 --outputfile $GITHUB_WORKSPACE/source/poisson.pvd --num-dofs $GITHUB_WORKSPACE/source/numdofs.txt"
+            },
+            "position": {
+                "x": 1117.176470588235,
+                "y": 91.2941176470588
+            }
+        },
+        {
+            "id": "{45cb400b-f610-476d-b798-60a5ec161521}",
+            "model": {
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes misc run-script",
+                    "path": "workflow-nodes misc run-script ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "arg0",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "arguments",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 1,
+                            "required": false,
+                            "shortName": "a",
+                            "type": "string"
+                        },
+                        {
+                            "name": "execute-in",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 2,
+                            "required": false,
+                            "shortName": "e",
+                            "type": "string"
+                        },
+                        {
+                            "name": "interpreter",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 3,
+                            "required": false,
+                            "shortName": "i",
+                            "type": "string"
+                        },
+                        {
+                            "name": "ignore-exitcode",
                             "port_direction": "in",
                             "port_index": 5,
                             "position": 4,
                             "required": false,
-                            "shortName": "p",
+                            "shortName": "",
                             "type": "flag"
                         },
                         {
@@ -1372,43 +917,310 @@
                 }
             },
             "position": {
-                "x": 998.4000000000001,
-                "y": 278.9647058823528
+                "x": 2721.209035154627,
+                "y": 277.73633766497306
             }
         },
         {
-            "id": "{ec224666-e7a0-44d9-b059-b62e445c9e0a}",
+            "id": "{47b35abc-d775-4bb9-8cc7-cc6465e60746}",
             "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/unit_square.geo"
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes misc run-script",
+                    "path": "workflow-nodes misc run-script ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "arg0",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "arguments",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 1,
+                            "required": false,
+                            "shortName": "a",
+                            "type": "string"
+                        },
+                        {
+                            "name": "execute-in",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 2,
+                            "required": false,
+                            "shortName": "e",
+                            "type": "string"
+                        },
+                        {
+                            "name": "interpreter",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 3,
+                            "required": false,
+                            "shortName": "i",
+                            "type": "string"
+                        },
+                        {
+                            "name": "ignore-exitcode",
+                            "port_direction": "in",
+                            "port_index": 5,
+                            "position": 4,
+                            "required": false,
+                            "shortName": "",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 6,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 7,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.11.0"
+                }
             },
             "position": {
-                "x": 99.99999999999999,
-                "y": 427
+                "x": 1657.2536470588234,
+                "y": 278.1063529411764
             }
         },
         {
-            "id": "{8eaca792-cd22-4f78-9cc9-ee97828f7299}",
+            "id": "{8cdb1559-fb47-4df9-a8c8-9e26791c0a78}",
             "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/paper.tex"
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes misc tectonic",
+                    "path": "workflow-nodes misc tectonic ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "arg0",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.11.0"
+                }
             },
             "position": {
-                "x": 2818.012098600341,
-                "y": 181.34918465245534
+                "x": 3162.354934177241,
+                "y": 278.19138465576265
             }
         },
         {
-            "id": "{4c007f80-696e-4dfd-a4ab-7c33a40e8136}",
+            "id": "{0fbe73d9-16ad-4d3e-a312-daf94dc2e5d3}",
             "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/source/prepare_paper_macros.py"
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes system echo",
+                    "path": "workflow-nodes system echo ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "arg0",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "no-newline",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 1,
+                            "required": false,
+                            "shortName": "n",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "enable-backslash-escapes",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 2,
+                            "required": false,
+                            "shortName": "e",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "disable-backslash-escapes",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 3,
+                            "required": false,
+                            "shortName": "E",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 5,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 6,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.11.0"
+                }
             },
             "position": {
-                "x": 2290.6502591114613,
-                "y": -32.92533086161872
+                "x": 2120.2985600773645,
+                "y": 644.9233373301798
+            }
+        },
+        {
+            "id": "{44928488-49e4-4f55-816e-308501509049}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/source/postprocessing.py"
+            },
+            "position": {
+                "x": 1772.7247058823527,
+                "y": 52.85647058823527
+            }
+        },
+        {
+            "id": "{3e70152d-a817-48b4-9349-2b8f8922ceb5}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/simple_use_case/kadistudio"
+            },
+            "position": {
+                "x": 3211.1821175206046,
+                "y": 187.42308078914044
             }
         }
     ]
 }
-
