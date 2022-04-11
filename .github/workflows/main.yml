@@ -161,7 +161,10 @@ jobs:
         run: |
           conda activate simple_use_case
           python3 -m pip install workflow-nodes
-          which python3
+          echo ">>>>>>>>>>>>>>>> DAS IST PATH <<<<<<<<<<<<<<<<<<<<<"
+          echo $PATH
+          echo ">>>>>>>>>>>>>>>> DAS IST PATH <<<<<<<<<<<<<<<<<<<<<"
+          ls  /usr/share/miniconda3/envs/simple_use_case/bin -l
           wget https://gitlab.com/iam-cms/workflows/process-engine/-/jobs/1764662488/artifacts/download -O process_engine.zip
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
