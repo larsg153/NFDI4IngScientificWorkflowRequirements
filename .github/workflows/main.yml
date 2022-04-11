@@ -164,13 +164,8 @@ jobs:
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
-          echo ">>>>>>>>>>>> package deleted <<<<<<<<<<<<<<<<"
-          echo ">>>>>>>>>>>> changing directory <<<<<<<<<<<<<<"
           cd $GITHUB_WORKSPACE/simple_use_case/kadistudio
-          echo ">>>>>>>>>>>> changed directory <<<<<<<<<<<<<<"
-          echo ">>>>>>>>>>>> running flow file <<<<<<<<<<<<<<"
-          process_engine run touchScript.flow -p /home
-          echo ">>>>>>>>>>>> ran flow file <<<<<<<<<<<<<<"
+          sudo process_engine run touchScript.flow -p /home
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
