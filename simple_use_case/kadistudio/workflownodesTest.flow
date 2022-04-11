@@ -1,0 +1,122 @@
+{
+    "connections": [
+        {
+            "in_id": "{88aa241a-6f56-427a-b7e6-134e104c98ba}",
+            "in_index": 1,
+            "out_id": "{6bdc2174-ac98-47a3-aec2-5783ca3998f1}",
+            "out_index": 0
+        }
+    ],
+    "nodes": [
+        {
+            "id": "{6bdc2174-ac98-47a3-aec2-5783ca3998f1}",
+            "model": {
+                "name": "String",
+                "value": "Hallo"
+            },
+            "position": {
+                "x": -464.7058823529412,
+                "y": -24.83660130718954
+            }
+        },
+        {
+            "id": "{88aa241a-6f56-427a-b7e6-134e104c98ba}",
+            "model": {
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes system echo",
+                    "path": "workflow-nodes system echo ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "arg0",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "no-newline",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 1,
+                            "required": false,
+                            "shortName": "n",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "enable-backslash-escapes",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 2,
+                            "required": false,
+                            "shortName": "e",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "disable-backslash-escapes",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 3,
+                            "required": false,
+                            "shortName": "E",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 5,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 6,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.14.0"
+                }
+            },
+            "position": {
+                "x": -60.130718954248366,
+                "y": -69.93464052287582
+            }
+        }
+    ]
+}

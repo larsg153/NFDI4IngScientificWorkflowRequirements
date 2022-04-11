@@ -166,7 +166,7 @@ jobs:
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
           cd $GITHUB_WORKSPACE/simple_use_case/kadistudio
-          sudo process_engine run touchScript.flow -p /home
+          sudo process_engine run workflownodesTest.flow -p /home
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
