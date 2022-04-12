@@ -164,14 +164,14 @@ jobs:
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
-          echo $PATH
-          sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes /usr/bin/workflow-nodes
-          sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/gmsh /usr/bin/gmsh
-          sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/pvbatch /usr/bin/pvbatch
-          sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/tectonic /usr/bin/tectonic
-          sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/meshio /usr/bin/meshio
-          ls -l /usr/bin
-          sudo echo "echo 'Profile gesourced'" >> ~/.profile
+          # echo $PATH
+          # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes /usr/bin/workflow-nodes
+          # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/gmsh /usr/bin/gmsh
+          # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/pvbatch /usr/bin/pvbatch
+          # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/tectonic /usr/bin/tectonic
+          # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/meshio /usr/bin/meshio
+          # ls -l /usr/bin
+          # sudo echo "echo 'Profile gesourced'" >> ~/.profile
           sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/simple_use_case.flow -p $GITHUB_WORKSPACE
 
       - name: upload-paper-artifact
