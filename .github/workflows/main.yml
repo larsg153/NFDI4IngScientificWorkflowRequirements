@@ -164,11 +164,11 @@ jobs:
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
-          sudo ln -s /usr/share/miniconda3/bin/workflow-nodes /bin/workflow-nodes
-          sudo ln -s /usr/share/miniconda3/bin/gmsh /bin/gmsh
-          sudo ln -s /bin/pvbatch -> /usr/share/miniconda3/bin/pvbatch
-          sudo ln -s /usr/share/miniconda3/bin/tectonic /bin/tectonic
-          sudo ln -s /usr/share/miniconda3/bin/meshio /bin/meshio
+          sudo ln -s /usr/share/miniconda3/bin/workflow-nodes /usr/bin/workflow-nodes
+          sudo ln -s /usr/share/miniconda3/bin/gmsh /usr/bin/gmsh
+          sudo ln -s /usr/share/miniconda3/bin/pvbatch /usr/bin/pvbatch
+          sudo ln -s /usr/share/miniconda3/bin/tectonic /usr/bin/tectonic
+          sudo ln -s /usr/share/miniconda3/bin/meshio /usr/bin/meshio
           sudo echo "echo 'Profile gesourced'" >> ~/.profile
           sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/simple_use_case.flow -p $GITHUB_WORKSPACE
 
