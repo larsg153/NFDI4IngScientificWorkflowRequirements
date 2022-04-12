@@ -166,6 +166,7 @@ jobs:
           rm build/*.deb
           cd $GITHUB_WORKSPACE/simple_use_case/kadistudio
           sudo chmod +x $GITHUB_WORKSPACE/simple_use_case/kadistudio/testScript.sh && echo "Rechte gegeben"
+          sudo echo $PATH
           sudo process_engine run touchScript.flow -p /home
 
       - name: upload-paper-artifact
