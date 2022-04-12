@@ -44,7 +44,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes system echo",
-                    "path": "/usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes system echo ",
+                    "path": "workflow-nodes system echo ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -143,7 +143,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc run-script",
-                    "path": "/usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes misc run-script ",
+                    "path": "workflow-nodes misc run-script ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -259,7 +259,7 @@
             "id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
             "model": {
                 "name": "String",
-                "value": "$GITHUB_WORKSPACE/simple_use_case/kadistudio/testScript.sh"
+                "value": "simple_use_case/kadistudio/testScript.sh"
             },
             "position": {
                 "x": -387.3951073762839,
