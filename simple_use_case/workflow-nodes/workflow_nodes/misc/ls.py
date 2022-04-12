@@ -21,12 +21,12 @@ from .main import misc
 @misc.command()
 @option(
     "path",
-    description="Path to be listed."
+    description="Path to be listed.",
     required=True,
 )
 @option(
     "list",
-    description="Show details of directory."
+    description="Show details of directory.",
     char="l",
     is_flag=True,
 )
