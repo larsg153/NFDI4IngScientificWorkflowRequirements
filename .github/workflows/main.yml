@@ -165,7 +165,7 @@ jobs:
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
           echo $PATH
-          cat /usr/bin
+          ls -l /usr/bin
           sudo ln -s /usr/share/miniconda3/bin/workflow-nodes /usr/bin/workflow-nodes
           sudo ln -s /usr/share/miniconda3/bin/gmsh /usr/bin/gmsh
           sudo ln -s /usr/share/miniconda3/bin/pvbatch /usr/bin/pvbatch
