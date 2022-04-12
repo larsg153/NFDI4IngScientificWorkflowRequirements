@@ -1,33 +1,9 @@
 {
     "connections": [
         {
-            "in_id": "{a8230fce-76e9-45b5-865f-342cb1ea28fc}",
-            "in_index": 2,
-            "out_id": "{57721e06-47ee-4360-bd55-c1f82de162c4}",
-            "out_index": 0
-        },
-        {
             "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
-            "in_index": 4,
-            "out_id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
-            "in_index": 1,
-            "out_id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{81301529-9685-4ce1-9904-7dc9c8cd26c9}",
-            "in_index": 1,
-            "out_id": "{88afd9cb-01af-4752-9585-5081f0df4d75}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{a8230fce-76e9-45b5-865f-342cb1ea28fc}",
-            "in_index": 1,
-            "out_id": "{7d4bc5af-8c25-4093-8a2c-71502ec8b096}",
+            "in_index": 0,
+            "out_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
             "out_index": 0
         },
         {
@@ -37,13 +13,270 @@
             "out_index": 0
         },
         {
+            "in_id": "{a8230fce-76e9-45b5-865f-342cb1ea28fc}",
+            "in_index": 1,
+            "out_id": "{7d4bc5af-8c25-4093-8a2c-71502ec8b096}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
+            "in_index": 1,
+            "out_id": "{0d13382b-6bc9-46f9-a7b1-33df044be920}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{81301529-9685-4ce1-9904-7dc9c8cd26c9}",
+            "in_index": 1,
+            "out_id": "{88afd9cb-01af-4752-9585-5081f0df4d75}",
+            "out_index": 0
+        },
+        {
             "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
+            "in_index": 1,
+            "out_id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
+            "in_index": 2,
+            "out_id": "{47893828-4a12-45d9-8744-7942acfaafa9}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
+            "in_index": 4,
+            "out_id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
+            "in_index": 1,
+            "out_id": "{0d13382b-6bc9-46f9-a7b1-33df044be920}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
+            "in_index": 2,
+            "out_id": "{47893828-4a12-45d9-8744-7942acfaafa9}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
             "in_index": 0,
             "out_id": "{a8230fce-76e9-45b5-865f-342cb1ea28fc}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{a8230fce-76e9-45b5-865f-342cb1ea28fc}",
+            "in_index": 2,
+            "out_id": "{57721e06-47ee-4360-bd55-c1f82de162c4}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "in_index": 2,
+            "out_id": "{64b84f17-27ed-4733-8946-30908c69f571}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "in_index": 1,
+            "out_id": "{ae1c069d-c921-441b-85a3-555720241be5}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "in_index": 0,
+            "out_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "in_index": 1,
+            "out_id": "{ae1c069d-c921-441b-85a3-555720241be5}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "in_index": 2,
+            "out_id": "{64b84f17-27ed-4733-8946-30908c69f571}",
             "out_index": 0
         }
     ],
     "nodes": [
+        {
+            "id": "{ae1c069d-c921-441b-85a3-555720241be5}",
+            "model": {
+                "name": "String",
+                "value": "$(pwd)/simple_use_case/kadistudio"
+            },
+            "position": {
+                "x": -7.605485714285578,
+                "y": -181.41371428571432
+            }
+        },
+        {
+            "id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
+            "model": {
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes misc ls",
+                    "path": "/usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes misc ls ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "path",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "list",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 1,
+                            "required": false,
+                            "shortName": "l",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.14.0"
+                }
+            },
+            "position": {
+                "x": 9.28571428571422,
+                "y": -405.0571428571429
+            }
+        },
+        {
+            "id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "model": {
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes misc ls",
+                    "path": "/usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes misc ls ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "path",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "list",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 1,
+                            "required": false,
+                            "shortName": "l",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.14.0"
+                }
+            },
+            "position": {
+                "x": 412.1755428571429,
+                "y": -407.42011428571425
+            }
+        },
         {
             "id": "{57721e06-47ee-4360-bd55-c1f82de162c4}",
             "model": {
@@ -67,14 +300,25 @@
             }
         },
         {
+            "id": "{64b84f17-27ed-4733-8946-30908c69f571}",
+            "model": {
+                "name": "Boolean",
+                "value": "1"
+            },
+            "position": {
+                "x": 194.22331428571437,
+                "y": -111.85165714285719
+            }
+        },
+        {
             "id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
             "model": {
                 "name": "String",
-                "value": "$GITHUB_WORKSPACE/simple_use_case/kadistudio/testScript.sh"
+                "value": "simple_use_case/kadistudio/testScript.sh"
             },
             "position": {
-                "x": -387.3951073762839,
-                "y": 11.62711484593838
+                "x": 551.3422640522876,
+                "y": -153.57334229691878
             }
         },
         {
@@ -84,8 +328,8 @@
                 "value": "bash"
             },
             "position": {
-                "x": -386.017553688142,
-                "y": 79.78756302521009
+                "x": 584.7198177404289,
+                "y": -37.87003697478985
             }
         },
         {
@@ -192,8 +436,8 @@
                 }
             },
             "position": {
-                "x": -50.980392156862735,
-                "y": -101.30718954248368
+                "x": 919.7569792717086,
+                "y": -218.9647895424837
             }
         },
         {
@@ -291,8 +535,8 @@
                 }
             },
             "position": {
-                "x": -773.4857142857143,
-                "y": -98.74285714285715
+                "x": -810.1522285714285,
+                "y": -191.9561142857143
             }
         },
         {
@@ -302,8 +546,30 @@
                 "value": "$PATH"
             },
             "position": {
-                "x": -1110.3085714285717,
-                "y": -48.27428571428571
+                "x": -1138.7465142857145,
+                "y": -141.48754285714284
+            }
+        },
+        {
+            "id": "{47893828-4a12-45d9-8744-7942acfaafa9}",
+            "model": {
+                "name": "Boolean",
+                "value": "1"
+            },
+            "position": {
+                "x": -177.48571428571427,
+                "y": -121.85714285714283
+            }
+        },
+        {
+            "id": "{0d13382b-6bc9-46f9-a7b1-33df044be920}",
+            "model": {
+                "name": "String",
+                "value": "$(pwd)/simple_use_case"
+            },
+            "position": {
+                "x": -375.342857142857,
+                "y": -187.8571428571429
             }
         },
         {
