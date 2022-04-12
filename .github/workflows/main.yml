@@ -168,6 +168,7 @@ jobs:
           pvbatch --help
           meshio convert --help
           tectonic --help
+          sudo echo "echo 'Profile gesourced'" >> ~/.profile
           sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/simple_use_case.flow -p $GITHUB_WORKSPACE
 
       - name: upload-paper-artifact
