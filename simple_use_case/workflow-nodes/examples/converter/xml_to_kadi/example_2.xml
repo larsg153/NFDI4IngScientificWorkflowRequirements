@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<rootelem value="5" type="int" unit="km">
+  <child1>
+    <child1 value="5"/>
+    <child2 value="5" type="float"/>
+    <child3 value="5" type="int"/>
+    <child4 value="5" type="int" unit="km"/>
+    <child5 attr2="baz" attr3="foo"/>
+    <child6 attr2="baz" attr3="foo"/>
+  </child1>
+</rootelem>

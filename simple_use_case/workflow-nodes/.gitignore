@@ -1,0 +1,18 @@
+# IDEs
+/.idea/
+/.vscode/
+
+# Packaging
+/*.egg-info/
+/build/
+/dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Testing
+/.tox/
+
+# Sphinx
+/docs/_build/

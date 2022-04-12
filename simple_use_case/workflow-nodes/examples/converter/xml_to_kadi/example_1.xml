@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<First>
+    <Name1>1</Name1>
+    <Value0>Content0</Value0>
+    <Value1>Content1</Value1>
+    <Second>
+        <Third>
+            <Name1></Name1>
+            <Name2>1.0</Name2>
+            <Name3>True</Name3>
+            <Name4>String</Name4>
+            <Name5>1</Name5>
+        </Third>
+    </Second>
+</First>

@@ -1,0 +1,56 @@
+default:
+  image: python:3.9-buster
+
+stages:
+  - pre
+  - test
+  - deploy
+
+pre-commit:
+  stage: pre
+  tags:
+    - docker
+  script:
+    - pip install tox
+    - tox -e pre-commit
+
+pylint:
+  stage: pre
+  tags:
+    - docker
+  script:
+    - pip install tox
+    - tox -e pylint
+
+validate-tool-xml:
+  stage: test
+  tags:
+    - docker
+  before_script:
+    - apt update
+    - apt install libxml2-utils
+    - pip install .
+  script:
+    - >
+      time workflow-nodes --commands | while read command; do
+        echo -n "Testing \"$command\"..."
+        $command --xmlhelp | xmllint --noout -
+        echo "OK"
+      done
+
+test-docs:
+  stage: test
+  tags:
+    - docker
+  script:
+    - pip install tox
+    - tox -e docs
+
+release-pypi:
+  stage: deploy
+  tags:
+    - docker
+  script:
+    - ./bin/make_release.sh
+  rules:
+    - if: '$CI_PROJECT_NAMESPACE == "iam-cms/workflows" && $CI_COMMIT_TAG =~ /^v\d+\.\d+\.\d+$/'

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<First>
+    <Value0/>
+    <Value1/>
+    <Value2/>
+    <Second>
+        Some text
+    </Second>
+    <Second2>
+        <Third attr2="baz" attr3="foo">
+            Some text
+        </Third>
+    </Second2>
+</First>

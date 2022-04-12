@@ -159,13 +159,12 @@ jobs:
       - name: run-workflow
         shell: bash -l {0}
         run: |
-          python3 -m pip install workflow-nodes
+          pip install $GITHUB_WORKSPACE/simple_use_case/workflow-nodes
           wget https://gitlab.com/iam-cms/workflows/process-engine/-/jobs/1764662488/artifacts/download -O process_engine.zip
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
           cd $GITHUB_WORKSPACE/simple_use_case/kadistudio
-          sudo chmod +x $GITHUB_WORKSPACE/simple_use_case/kadistudio/testScript.sh && echo "Rechte gegeben"
           sudo echo $PATH
           sudo process_engine run touchScript.flow -p /home
 
