@@ -18,6 +18,7 @@ from xmlhelpy import option
 
 from .main import misc
 
+
 @misc.command()
 @option(
     "file",
@@ -30,4 +31,3 @@ def cat(file):
     cmd += [file]
 
     sys.exit(subprocess.call(cmd))
-    

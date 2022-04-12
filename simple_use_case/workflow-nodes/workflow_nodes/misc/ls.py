@@ -18,6 +18,7 @@ from xmlhelpy import option
 
 from .main import misc
 
+
 @misc.command()
 @option(
     "path",
@@ -38,4 +39,3 @@ def ls(path, list):
         cmd += ["-l"]
 
     sys.exit(subprocess.call(cmd))
-    
