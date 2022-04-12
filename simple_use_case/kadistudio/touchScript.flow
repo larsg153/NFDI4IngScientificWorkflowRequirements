@@ -1,6 +1,18 @@
 {
     "connections": [
         {
+            "in_id": "{81301529-9685-4ce1-9904-7dc9c8cd26c9}",
+            "in_index": 1,
+            "out_id": "{88afd9cb-01af-4752-9585-5081f0df4d75}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
+            "in_index": 0,
+            "out_id": "{81301529-9685-4ce1-9904-7dc9c8cd26c9}",
+            "out_index": 0
+        },
+        {
             "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
             "in_index": 1,
             "out_id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
@@ -14,6 +26,116 @@
         }
     ],
     "nodes": [
+        {
+            "id": "{88afd9cb-01af-4752-9585-5081f0df4d75}",
+            "model": {
+                "name": "String",
+                "value": "$PATH"
+            },
+            "position": {
+                "x": -1110.3085714285717,
+                "y": -48.27428571428571
+            }
+        },
+        {
+            "id": "{81301529-9685-4ce1-9904-7dc9c8cd26c9}",
+            "model": {
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes system echo",
+                    "path": "/usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes system echo ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "arg0",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "no-newline",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 1,
+                            "required": false,
+                            "shortName": "n",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "enable-backslash-escapes",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 2,
+                            "required": false,
+                            "shortName": "e",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "disable-backslash-escapes",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 3,
+                            "required": false,
+                            "shortName": "E",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 5,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 6,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.14.0"
+                }
+            },
+            "position": {
+                "x": -773.4857142857143,
+                "y": -98.74285714285715
+            }
+        },
         {
             "id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
             "model": {
@@ -123,25 +245,25 @@
             }
         },
         {
-            "id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
-            "model": {
-                "name": "String",
-                "value": "$GITHUB_WORKSPACE/simple_use_case/kadistudio/testScript.sh"
-            },
-            "position": {
-                "x": -383.00653594771245,
-                "y": -60.7843137254902
-            }
-        },
-        {
             "id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
             "model": {
                 "name": "String",
                 "value": "bash"
             },
             "position": {
-                "x": -391.5032679738563,
-                "y": 11.764705882352942
+                "x": -386.017553688142,
+                "y": 79.78756302521009
+            }
+        },
+        {
+            "id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
+            "model": {
+                "name": "String",
+                "value": "$GITHUB_WORKSPACE/simple_use_case/kadistudio/testScript.sh"
+            },
+            "position": {
+                "x": -387.3951073762839,
+                "y": 11.62711484593838
             }
         }
     ]
