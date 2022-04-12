@@ -164,8 +164,7 @@ jobs:
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
-          sudo echo $PATH
-          sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/touchScript.flow -p $GITHUB_WORKSPACE
+          sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/simple_use_case.flow -p $GITHUB_WORKSPACE
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
