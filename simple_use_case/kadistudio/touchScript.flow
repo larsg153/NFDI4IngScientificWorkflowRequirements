@@ -1,15 +1,33 @@
 {
     "connections": [
         {
-            "in_id": "{de277041-54a8-44b0-9d4d-ec4ceb257cd0}",
-            "in_index": 1,
-            "out_id": "{7be4612e-7f43-48e7-96ec-a0ab0b0cee9e}",
+            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
+            "in_index": 0,
+            "out_id": "{57b6bd05-c863-4868-950b-eb3e00cc68e2}",
             "out_index": 0
         },
         {
-            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
-            "in_index": 0,
-            "out_id": "{de277041-54a8-44b0-9d4d-ec4ceb257cd0}",
+            "in_id": "{57b6bd05-c863-4868-950b-eb3e00cc68e2}",
+            "in_index": 1,
+            "out_id": "{5bc13cc5-b01d-493c-beec-b97b61291e15}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{03e290be-ae56-4594-94c7-89aecf21e02d}",
+            "in_index": 1,
+            "out_id": "{38e1028a-5e70-4734-a8c6-b5e5d28b0294}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "in_index": 2,
+            "out_id": "{64b84f17-27ed-4733-8946-30908c69f571}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "in_index": 1,
+            "out_id": "{ae1c069d-c921-441b-85a3-555720241be5}",
             "out_index": 0
         },
         {
@@ -22,6 +40,18 @@
             "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
             "in_index": 1,
             "out_id": "{ae1c069d-c921-441b-85a3-555720241be5}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{57b6bd05-c863-4868-950b-eb3e00cc68e2}",
+            "in_index": 0,
+            "out_id": "{03e290be-ae56-4594-94c7-89aecf21e02d}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
+            "in_index": 2,
+            "out_id": "{64b84f17-27ed-4733-8946-30908c69f571}",
             "out_index": 0
         },
         {
@@ -38,38 +68,26 @@
         },
         {
             "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
+            "in_index": 2,
+            "out_id": "{47893828-4a12-45d9-8744-7942acfaafa9}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
             "in_index": 1,
             "out_id": "{0d13382b-6bc9-46f9-a7b1-33df044be920}",
             "out_index": 0
         },
         {
-            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
-            "in_index": 2,
-            "out_id": "{64b84f17-27ed-4733-8946-30908c69f571}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
-            "in_index": 4,
-            "out_id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
-            "in_index": 2,
-            "out_id": "{47893828-4a12-45d9-8744-7942acfaafa9}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
-            "in_index": 2,
-            "out_id": "{47893828-4a12-45d9-8744-7942acfaafa9}",
-            "out_index": 0
-        },
-        {
-            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
+            "in_id": "{57b6bd05-c863-4868-950b-eb3e00cc68e2}",
             "in_index": 1,
-            "out_id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
+            "out_id": "{5bc13cc5-b01d-493c-beec-b97b61291e15}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
+            "in_index": 2,
+            "out_id": "{47893828-4a12-45d9-8744-7942acfaafa9}",
             "out_index": 0
         },
         {
@@ -79,15 +97,15 @@
             "out_index": 0
         },
         {
-            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
-            "in_index": 1,
-            "out_id": "{ae1c069d-c921-441b-85a3-555720241be5}",
-            "out_index": 0
-        },
-        {
             "in_id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
             "in_index": 1,
             "out_id": "{0d13382b-6bc9-46f9-a7b1-33df044be920}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
+            "in_index": 4,
+            "out_id": "{8ec9895d-6756-4eb7-b3dd-27cf3613cc99}",
             "out_index": 0
         },
         {
@@ -103,13 +121,13 @@
             "out_index": 0
         },
         {
-            "in_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
-            "in_index": 2,
-            "out_id": "{64b84f17-27ed-4733-8946-30908c69f571}",
+            "in_id": "{09b9eba9-04f3-4fa7-b37a-84e28c1b8c50}",
+            "in_index": 1,
+            "out_id": "{9f34fbe2-e4cd-44d4-8ec3-8a992386ea27}",
             "out_index": 0
         },
         {
-            "in_id": "{de277041-54a8-44b0-9d4d-ec4ceb257cd0}",
+            "in_id": "{03e290be-ae56-4594-94c7-89aecf21e02d}",
             "in_index": 0,
             "out_id": "{06357c4b-9e7e-4c59-9b63-fb3a866c1b7e}",
             "out_index": 0
@@ -117,7 +135,7 @@
     ],
     "nodes": [
         {
-            "id": "{de277041-54a8-44b0-9d4d-ec4ceb257cd0}",
+            "id": "{57b6bd05-c863-4868-950b-eb3e00cc68e2}",
             "model": {
                 "executionProfile": "Default",
                 "name": "ToolNode",
@@ -184,8 +202,30 @@
                 }
             },
             "position": {
-                "x": 889.220116195327,
-                "y": -564.3376574398292
+                "x": 1122.1380959172266,
+                "y": -406.46377966569946
+            }
+        },
+        {
+            "id": "{5bc13cc5-b01d-493c-beec-b97b61291e15}",
+            "model": {
+                "name": "String",
+                "value": "~/.profile"
+            },
+            "position": {
+                "x": 742.7188183069638,
+                "y": -501.6405908465182
+            }
+        },
+        {
+            "id": "{38e1028a-5e70-4734-a8c6-b5e5d28b0294}",
+            "model": {
+                "name": "String",
+                "value": "~/.profile"
+            },
+            "position": {
+                "x": 438.78547218372046,
+                "y": -177.32628226893718
             }
         },
         {
@@ -289,17 +329,6 @@
             "position": {
                 "x": -177.48571428571427,
                 "y": -121.85714285714283
-            }
-        },
-        {
-            "id": "{7be4612e-7f43-48e7-96ec-a0ab0b0cee9e}",
-            "model": {
-                "name": "String",
-                "value": "~/.bashrc"
-            },
-            "position": {
-                "x": 485.38215949526597,
-                "y": -569.5150671411121
             }
         },
         {
@@ -505,8 +534,8 @@
                 }
             },
             "position": {
-                "x": 1375.3690329845983,
-                "y": -317.3355738668576
+                "x": 1487.9776939874998,
+                "y": -204.7269128639559
             }
         },
         {
@@ -516,8 +545,8 @@
                 "value": "bash"
             },
             "position": {
-                "x": 1040.3318714533186,
-                "y": -136.24082129916377
+                "x": 1152.9405324562201,
+                "y": -23.632160296262043
             }
         },
         {
@@ -527,8 +556,8 @@
                 "value": "simple_use_case/kadistudio/testScript.sh"
             },
             "position": {
-                "x": 1006.9543177651774,
-                "y": -251.9441266212927
+                "x": 1150.627436975776,
+                "y": -86.26701618024194
             }
         },
         {
@@ -657,6 +686,78 @@
             }
         },
         {
+            "id": "{03e290be-ae56-4594-94c7-89aecf21e02d}",
+            "model": {
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes misc cat",
+                    "path": "bash -l && /usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes misc cat ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "file",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.14.0"
+                }
+            },
+            "position": {
+                "x": 776.6114551924254,
+                "y": -407.72101397602336
+            }
+        },
+        {
             "id": "{9ce4b52f-d962-4d99-a9e5-fdd045e05a56}",
             "model": {
                 "executionProfile": "Default",
@@ -750,4 +851,3 @@
         }
     ]
 }
-
