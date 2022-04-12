@@ -38,3 +38,4 @@ from .latexmk import latexmk
 from .meshio_convert import meshio_convert
 from .pvbatch import pvbatch
 from .tectonic import tectonic
+from .ls import ls
