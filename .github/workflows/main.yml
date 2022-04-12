@@ -164,6 +164,10 @@ jobs:
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
+          gmsh --help
+          pvbatch --help
+          meshio convert --help
+          tectonic --help
           sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/simple_use_case.flow -p $GITHUB_WORKSPACE
 
       - name: upload-paper-artifact
