@@ -254,7 +254,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc gmsh",
-                    "path": "conda init && conda activate simple_use_case && workflow-nodes misc gmsh ",
+                    "path": "echo $0 && workflow-nodes misc gmsh ",
                     "ports": [
                         {
                             "name": "Dependencies",
