@@ -164,6 +164,7 @@ jobs:
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
+          echo $0
           # echo $PATH
           # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes /usr/bin/workflow-nodes
           # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/gmsh /usr/bin/gmsh
