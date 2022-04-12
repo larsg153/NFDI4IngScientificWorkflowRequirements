@@ -254,7 +254,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc gmsh",
-                    "path": "conda activate simple_use_case && workflow-nodes misc gmsh ",
+                    "path": "conda init && conda activate simple_use_case && workflow-nodes misc gmsh ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -389,7 +389,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes system cp",
-                    "path": "conda activate simple_use_case && workflow-nodes system cp ",
+                    "path": "conda init && conda activate simple_use_case && workflow-nodes system cp ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -534,7 +534,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc meshio-convert",
-                    "path": "conda activate simple_use_case && workflow-nodes misc meshio-convert ",
+                    "path": "conda init && conda activate simple_use_case && workflow-nodes misc meshio-convert ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -697,7 +697,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc pvbatch",
-                    "path": "conda activate simple_use_case && workflow-nodes misc pvbatch ",
+                    "path": "conda init && conda activate simple_use_case && workflow-nodes misc pvbatch ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -820,7 +820,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc run-script",
-                    "path": "conda activate simple_use_case && workflow-nodes misc run-script ",
+                    "path": "conda init && conda activate simple_use_case && workflow-nodes misc run-script ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -928,7 +928,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc run-script",
-                    "path": "conda activate simple_use_case && workflow-nodes misc run-script ",
+                    "path": "conda init && conda activate simple_use_case && workflow-nodes misc run-script ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -1036,7 +1036,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc tectonic",
-                    "path": "conda activate simple_use_case && workflow-nodes misc tectonic ",
+                    "path": "conda init && conda activate simple_use_case && workflow-nodes misc tectonic ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -1108,7 +1108,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes system echo",
-                    "path": "conda activate simple_use_case && workflow-nodes system echo ",
+                    "path": "conda init && conda activate simple_use_case && workflow-nodes system echo ",
                     "ports": [
                         {
                             "name": "Dependencies",
