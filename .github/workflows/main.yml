@@ -173,7 +173,7 @@ jobs:
           # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/meshio /usr/bin/meshio
           # ls -l /usr/bin
           # sudo echo "echo 'Profile gesourced'" >> ~/.profile
-          sudo chsh -s bash
+          sudo chsh -s /bin/bash
           sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE
 
       - name: upload-paper-artifact
