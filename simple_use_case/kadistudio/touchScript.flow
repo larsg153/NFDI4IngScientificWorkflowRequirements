@@ -95,7 +95,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc run-script",
-                    "path": "workflow-nodes misc run-script ",
+                    "path": "/usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes misc run-script ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -203,7 +203,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes system echo",
-                    "path": "workflow-nodes system echo ",
+                    "path": "/usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes system echo ",
                     "ports": [
                         {
                             "name": "Dependencies",
@@ -313,7 +313,7 @@
                 "name": "ToolNode",
                 "tool": {
                     "name": "workflow-nodes misc ls",
-                    "path": "workflow-nodes misc ls ",
+                    "path": "/usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes misc ls ",
                     "ports": [
                         {
                             "name": "Dependencies",
