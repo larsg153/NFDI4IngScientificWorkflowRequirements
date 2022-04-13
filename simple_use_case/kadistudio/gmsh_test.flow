@@ -1,9 +1,27 @@
 {
     "connections": [
         {
+            "in_id": "{f95baf5a-f14b-42fc-b6ed-fd43ef0c98cd}",
+            "in_index": 3,
+            "out_id": "{55b0d5c4-d7fc-47dd-aa38-d47dc8fc1dac}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{d86e8fa6-c5fe-4aa8-addf-ab4c82d93e76}",
+            "in_index": 0,
+            "out_id": "{f95baf5a-f14b-42fc-b6ed-fd43ef0c98cd}",
+            "out_index": 0
+        },
+        {
             "in_id": "{950369f8-7832-4201-a863-b1f42ab9e2e2}",
             "in_index": 1,
             "out_id": "{5552857e-fe55-4384-9c0b-f23c15df95ad}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{f95baf5a-f14b-42fc-b6ed-fd43ef0c98cd}",
+            "in_index": 2,
+            "out_id": "{cf0383a7-77ce-46f6-a9aa-ca681f9b05fe}",
             "out_index": 0
         },
         {
@@ -64,6 +82,12 @@
             "in_id": "{561465f6-657d-4b98-bda8-0799e293d86c}",
             "in_index": 5,
             "out_id": "{f856662c-123c-409c-90db-6f36cebd3ca1}",
+            "out_index": 0
+        },
+        {
+            "in_id": "{f95baf5a-f14b-42fc-b6ed-fd43ef0c98cd}",
+            "in_index": 1,
+            "out_id": "{5552857e-fe55-4384-9c0b-f23c15df95ad}",
             "out_index": 0
         },
         {
@@ -140,6 +164,96 @@
         }
     ],
     "nodes": [
+        {
+            "id": "{f95baf5a-f14b-42fc-b6ed-fd43ef0c98cd}",
+            "model": {
+                "executionProfile": "Default",
+                "name": "ToolNode",
+                "tool": {
+                    "name": "workflow-nodes system cp",
+                    "path": "workflow-nodes system cp ",
+                    "ports": [
+                        {
+                            "name": "Dependencies",
+                            "port_direction": "in",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "arg0",
+                            "port_direction": "in",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "arg1",
+                            "port_direction": "in",
+                            "port_index": 2,
+                            "position": 1,
+                            "required": true,
+                            "shortName": "",
+                            "type": "string"
+                        },
+                        {
+                            "name": "directory",
+                            "port_direction": "in",
+                            "port_index": 3,
+                            "position": 2,
+                            "required": false,
+                            "shortName": "d",
+                            "type": "flag"
+                        },
+                        {
+                            "name": "environment",
+                            "port_direction": "in",
+                            "port_index": 4,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "env"
+                        },
+                        {
+                            "name": "stdin",
+                            "port_direction": "in",
+                            "port_index": 5,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        },
+                        {
+                            "name": "Dependents",
+                            "port_direction": "out",
+                            "port_index": 0,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "dependency"
+                        },
+                        {
+                            "name": "stdout",
+                            "port_direction": "out",
+                            "port_index": 1,
+                            "position": 0,
+                            "required": false,
+                            "shortName": "",
+                            "type": "pipe"
+                        }
+                    ],
+                    "version": "0.14.0"
+                }
+            },
+            "position": {
+                "x": -1012.5476912883819,
+                "y": 280.79053623963546
+            }
+        },
         {
             "id": "{950369f8-7832-4201-a863-b1f42ab9e2e2}",
             "model": {
@@ -603,6 +717,17 @@
             }
         },
         {
+            "id": "{cf0383a7-77ce-46f6-a9aa-ca681f9b05fe}",
+            "model": {
+                "name": "String",
+                "value": "$(pwd)"
+            },
+            "position": {
+                "x": -1368.4829170746589,
+                "y": 364.5184381813058
+            }
+        },
+        {
             "id": "{dde60a88-8ecd-42aa-bc79-03471811dda1}",
             "model": {
                 "executionProfile": "Default",
@@ -738,14 +863,25 @@
             }
         },
         {
+            "id": "{55b0d5c4-d7fc-47dd-aa38-d47dc8fc1dac}",
+            "model": {
+                "name": "Boolean",
+                "value": "1"
+            },
+            "position": {
+                "x": -1170.8359590363896,
+                "y": 452.7414748143048
+            }
+        },
+        {
             "id": "{5552857e-fe55-4384-9c0b-f23c15df95ad}",
             "model": {
                 "name": "String",
                 "value": "$GITHUB_WORKSPACE/simple_use_case/source"
             },
             "position": {
-                "x": -977.2024652698406,
-                "y": 331.82596597088843
+                "x": -1001.0271168295673,
+                "y": 612.6165022105238
             }
         },
         {
@@ -866,7 +1002,7 @@
             "id": "{ec224666-e7a0-44d9-b059-b62e445c9e0a}",
             "model": {
                 "name": "String",
-                "value": "$GITHUB_WORKSPACE/simple_use_case/source/unit_square.geo"
+                "value": "source/unit_square.geo"
             },
             "position": {
                 "x": 99.99999999999999,
