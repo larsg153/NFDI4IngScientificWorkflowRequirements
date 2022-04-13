@@ -173,7 +173,7 @@ jobs:
           # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/
           # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/simple_use_case/
           # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/simple_use_case/source/
-          process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/simple_use_case.flow -p $GITHUB_WORKSPACE/run
+          process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/lsPATH.flow -p $GITHUB_WORKSPACE/run
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
