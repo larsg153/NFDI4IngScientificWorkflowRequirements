@@ -166,6 +166,7 @@ jobs:
           rm build/*.deb
           echo $(pwd)
           mkdir $GITHUB_WORKSPACE/run
+          chmod -R 777 $GITHUB_WORKSPACE/simple_use_case/source
           # ls -l /home/
           # ls -l /home/runner/
           # ls -l /home/runner/work/
