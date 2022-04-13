@@ -174,7 +174,7 @@ jobs:
           # ls -l /usr/bin
           # sudo echo "echo 'Profile gesourced'" >> ~/.profile
           # sudo chsh -s /bin/bash
-          sudo bash -l -c process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE
+          sudo bash -l -c "process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE"
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
