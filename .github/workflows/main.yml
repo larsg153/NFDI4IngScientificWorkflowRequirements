@@ -164,7 +164,7 @@ jobs:
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
-          echo $0
+          # echo $0
           # echo $PATH
           # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/workflow-nodes /usr/bin/workflow-nodes
           # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/gmsh /usr/bin/gmsh
@@ -173,8 +173,8 @@ jobs:
           # sudo ln -s /usr/share/miniconda3/envs/simple_use_case/bin/meshio /usr/bin/meshio
           # ls -l /usr/bin
           # sudo echo "echo 'Profile gesourced'" >> ~/.profile
-          sudo chsh -s /bin/bash
-          sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE
+          # sudo chsh -s /bin/bash
+          sudo bash -c process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
