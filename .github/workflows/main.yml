@@ -162,7 +162,7 @@ jobs:
           pip install $GITHUB_WORKSPACE/simple_use_case/workflow-nodes
           wget https://gitlab.com/iam-cms/workflows/process-engine/-/jobs/1764662488/artifacts/download -O process_engine.zip
           unzip process_engine.zip
-          sudo apt-get install --yes ./build/*.deb
+          apt-get install --yes ./build/*.deb
           rm build/*.deb
           # echo $0
           # echo $PATH
@@ -174,7 +174,8 @@ jobs:
           # ls -l /usr/bin
           # sudo echo "echo 'Profile gesourced'" >> ~/.profile
           # sudo chsh -s /bin/bash
-          sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE
+          echo $(pwd)
+          process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
