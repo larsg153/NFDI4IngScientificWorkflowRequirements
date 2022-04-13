@@ -157,7 +157,7 @@ jobs:
           activate-environment: simple_use_case
 
       - name: run-workflow
-        shell: bash -l {0}
+        shell: /bin/bash -l {0}
         run: |
           pip install $GITHUB_WORKSPACE/simple_use_case/workflow-nodes
           wget https://gitlab.com/iam-cms/workflows/process-engine/-/jobs/1764662488/artifacts/download -O process_engine.zip
