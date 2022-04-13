@@ -157,7 +157,7 @@ jobs:
           activate-environment: simple_use_case
 
       - name: run-workflow
-        shell: /bin/bash -l {0}
+        shell: bash -l -i {0}
         run: |
           pip install $GITHUB_WORKSPACE/simple_use_case/workflow-nodes
           wget https://gitlab.com/iam-cms/workflows/process-engine/-/jobs/1764662488/artifacts/download -O process_engine.zip
@@ -174,7 +174,7 @@ jobs:
           # ls -l /usr/bin
           # sudo echo "echo 'Profile gesourced'" >> ~/.profile
           # sudo chsh -s /bin/bash
-          sudo bash -l -c "process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE"
+          sudo process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/echo0.flow -p $GITHUB_WORKSPACE
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
