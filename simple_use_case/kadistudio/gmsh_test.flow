@@ -1170,7 +1170,7 @@
             "id": "{ec224666-e7a0-44d9-b059-b62e445c9e0a}",
             "model": {
                 "name": "String",
-                "value": "source/unit_square.geo"
+                "value": "/home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/simple_use_case/source/unit_square.geo"
             },
             "position": {
                 "x": -356.95681691555683,
