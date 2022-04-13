@@ -31,11 +31,19 @@ from .main import misc
     char="l",
     is_flag=True,
 )
-def ls(path, list):
+@option(
+    "all",
+    description="Show all details.",
+    char="a",
+    is_flag=True,
+)
+def ls(path, list, all):
     cmd = ["ls"]
 
     cmd += [path]
     if list:
         cmd += ["-l"]
+    if all:
+        cmd += ["-a"]
 
     sys.exit(subprocess.call(cmd))
