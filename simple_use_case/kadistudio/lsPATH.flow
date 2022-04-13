@@ -108,7 +108,7 @@
             "id": "{b63815d3-4860-4fd4-a3ec-415e24e00b34}",
             "model": {
                 "name": "String",
-                "value": "$(pwd)/simple_use_case/source"
+                "value": "$GITHUB_WORKSPACE/simple_use_case/source"
             },
             "position": {
                 "x": 392.1321927053133,
@@ -211,7 +211,7 @@
             "id": "{ae1c069d-c921-441b-85a3-555720241be5}",
             "model": {
                 "name": "String",
-                "value": "$(pwd)/simple_use_case/kadistudio"
+                "value": "$GITHUB_WORKSPACE/simple_use_case/kadistudio"
             },
             "position": {
                 "x": -7.605485714285578,
@@ -406,7 +406,7 @@
             "id": "{7d4bc5af-8c25-4093-8a2c-71502ec8b096}",
             "model": {
                 "name": "String",
-                "value": "$(pwd)"
+                "value": "$GITHUB_WORKSPACE"
             },
             "position": {
                 "x": -787.7485714285712,
@@ -538,7 +538,7 @@
             "id": "{0d13382b-6bc9-46f9-a7b1-33df044be920}",
             "model": {
                 "name": "String",
-                "value": "$(pwd)/simple_use_case"
+                "value": "$GITHUB_WORKSPACE/simple_use_case"
             },
             "position": {
                 "x": -375.342857142857,
@@ -628,3 +628,4 @@
         }
     ]
 }
+
