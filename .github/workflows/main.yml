@@ -165,17 +165,10 @@ jobs:
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
           echo $(pwd)
-          mkdir $GITHUB_WORKSPACE/run
-          # chmod -R 777 $GITHUB_WORKSPACE/simple_use_case/source
-          # ls -l /home/
-          # ls -l /home/runner/
-          # ls -l /home/runner/work/
-          # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/
-          # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/
-          # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/simple_use_case/
-          # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/simple_use_case/source/
-          # process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/gmsh_test.flow -p $GITHUB_WORKSPACE/run
-          gmsh -2 -setnumber domain_size 4 $GITHUB_WORKSPACE/simple_use_case/source/unit_square.geo -o $GITHUB_WORKSPACE/simple_use_case/source/square_mesh.msh
+          echo $GITHUB_WORKSPACE
+          mkdir $GITHUB_WORKSPACE/run && cp -r $GITHUB_WORKSPACE/simple_use_case/source/ $GITHUB_WORKSPACE/run/
+          # gmsh -2 -setnumber domain_size 4 $GITHUB_WORKSPACE/simple_use_case/source/unit_square.geo -o $GITHUB_WORKSPACE/simple_use_case/source/square_mesh.msh
+          workflow-nodes misc gmsh -b -g "$GITHUB_WORKSPACE/simple_use_case/source/unit_square.geo" -o "$GITHUB_WORKSPACE/simple_use_case/source/square_mesh.msh" -n "domain_size 4"
           ls -l $GITHUB_WORKSPACE/simple_use_case/source/
           cat $GITHUB_WORKSPACE/simple_use_case/source/square_mesh.msh
 
@@ -186,3 +179,13 @@ jobs:
           path: ./simple_use_case/kadistudio/paper.pdf
           retention-days: 1
           if-no-files-found: error
+
+          # chmod -R 777 $GITHUB_WORKSPACE/simple_use_case/source
+          # ls -l /home/
+          # ls -l /home/runner/
+          # ls -l /home/runner/work/
+          # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/
+          # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/
+          # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/simple_use_case/
+          # ls -l /home/runner/work/NFDI4IngScientificWorkflowRequirements/NFDI4IngScientificWorkflowRequirements/simple_use_case/source/
+          # process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/gmsh_test.flow -p $GITHUB_WORKSPACE/run
