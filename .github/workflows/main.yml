@@ -159,11 +159,7 @@ jobs:
       - name: run-workflow
         shell: bash -l -i {0}
         run: |
-          pip install $GITHUB_WORKSPACE/simple_use_case/workflow-nodes
-          wget https://gitlab.com/iam-cms/workflows/process-engine/-/jobs/1764662488/artifacts/download -O process_engine.zip
-          unzip process_engine.zip
-          sudo apt-get install --yes ./build/*.deb
-          rm build/*.deb
+          bash $GITHUB_WORKSPACE/simple_use_case/kadistudio/install_components.sh
           mkdir $GITHUB_WORKSPACE/run
           process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/simple_use_case.flow -p $GITHUB_WORKSPACE/run
 

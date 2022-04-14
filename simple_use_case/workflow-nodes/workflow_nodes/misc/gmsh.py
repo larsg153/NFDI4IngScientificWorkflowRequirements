@@ -92,7 +92,7 @@ def gmsh(
         cmd += ["-3"]
     if set_number:
         cmd += ["-setnumber"]
-        cmd += set_number.split(' ')
+        cmd += set_number.split(" ")
     if geo_file:
         cmd += [geo_file]
     if save_and_exit:
