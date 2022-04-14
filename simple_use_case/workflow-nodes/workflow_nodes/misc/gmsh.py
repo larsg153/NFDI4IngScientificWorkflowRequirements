@@ -91,9 +91,8 @@ def gmsh(
     if three_dimensional_mesh:
         cmd += ["-3"]
     if set_number:
-        set_number_list = set_number.split(' ')
         cmd += ["-setnumber"]
-        cmd += set_number_list
+        cmd += set_number.split(' ')
     if geo_file:
         cmd += [geo_file]
     if save_and_exit:
