@@ -196,7 +196,7 @@
             "id": "{1c0f1152-497a-4c02-8a35-148030fa6576}",
             "model": {
                 "name": "String",
-                "value": "--macro-template-file $GITHUB_WORKSPACE/simple_use_case/source/macros.tex.template --plot-data-path plotoverline.csv --domain-size 4 --num-dofs ${numdofs} --output-macro-file $(pwd)/simple_use_case/source/macros.tex"
+                "value": "--macro-template-file $GITHUB_WORKSPACE/simple_use_case/source/macros.tex.template --plot-data-path $GITHUB_WORKSPACE/simple_use_case/source/plotoverline.csv --domain-size 4 --num-dofs ${numdofs} --output-macro-file $GITHUB_WORKSPACE/simple_use_case/source/macros.tex"
             },
             "position": {
                 "x": 2290.4287348872485,
@@ -1197,4 +1197,3 @@
         }
     ]
 }
-
