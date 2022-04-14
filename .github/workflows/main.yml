@@ -164,17 +164,8 @@ jobs:
           unzip process_engine.zip
           sudo apt-get install --yes ./build/*.deb
           rm build/*.deb
-          echo $(pwd)
-          echo $GITHUB_WORKSPACE
-          mkdir $GITHUB_WORKSPACE/run && cp -r $GITHUB_WORKSPACE/simple_use_case/source/ $GITHUB_WORKSPACE/run/ && chmod -R 777 $GITHUB_WORKSPACE/run/source/
-          ls -la $GITHUB_WORKSPACE/run/source
-          gmsh -2 -setnumber domain_size 4 $GITHUB_WORKSPACE/run/source/unit_square.geo -o $GITHUB_WORKSPACE/run/source/square_one_mesh.msh
-          workflow-nodes misc gmsh -b -g $GITHUB_WORKSPACE"/run/source/unit_square.geo" -o $GITHUB_WORKSPACE"/run/source/square_two_mesh.msh" -n "domain_size 4"
-          workflow-nodes misc ls -l -a --path $GITHUB_WORKSPACE"/run/source/unit_square.geo"
-          echo "$GITHUB_WORKSPACE/run/source/unit_square.geo"
-          #ls -l $GITHUB_WORKSPACE/simple_use_case/source/
-          #cat $GITHUB_WORKSPACE/simple_use_case/source/square_mesh.msh
-          process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/gmsh_test.flow -p $GITHUB_WORKSPACE/run
+          mkdir $GITHUB_WORKSPACE/run
+          process_engine run $GITHUB_WORKSPACE/simple_use_case/kadistudio/gmsh_new.flow -p $GITHUB_WORKSPACE/run
 
       - name: upload-paper-artifact
         uses: actions/upload-artifact@v2
